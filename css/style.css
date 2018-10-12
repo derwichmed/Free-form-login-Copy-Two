@@ -1,0 +1,80 @@
+body{
+    background-color: #1fc8db;
+    background-image: url('form_login_background.png')
+}
+#form_login{
+    margin-top: 100px
+}
+#form_login > div > div{
+    height: 300px
+}
+#form_login > div > div > div:first-child{
+    background-image: linear-gradient(to top right,#98d28f,#bcd3b8);
+    padding-top: 50px
+}
+#form_login > div > div > div:first-child h2{
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+#form_login > div > div > div:first-child img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 30px
+}
+#form_login > div > div > div:first-child > div{
+    margin-top: 50px;
+}
+#form_login > div > div > div:first-child table{
+    width: 100%;
+    margin-top: 40px
+}
+#form_login > div > div > div:first-child table tr td:first-child{
+    text-align: left;
+}
+#form_login > div > div > div:first-child table tr td:last-child{
+    text-align: right
+}
+#form_login > div > div > div:first-child table tr td a{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline
+}
+#form_login > div > div > div:last-child{
+    background-color: white
+}
+#form_login > div > div > div:last-child > div > div:first-child{
+    margin-top: 20px;
+}
+#form_login > div > div > div:last-child > div > div:first-child em:first-child{
+    color: #98d28f;
+    font-style: normal;
+    font-weight: bold
+}
+#form_login > div > div > div:last-child > div > div:first-child em:last-child{
+    color: gray;
+    font-style: normal;
+    font-weight: bold
+}
+#form_login > div > div > div:last-child > div > div:nth-child(2){
+    margin-top: 50px
+}
+#form_login > div > div > div:last-child > div > div:last-child{
+    margin-top: 30px
+}
+#form_login > div > div > div:last-child > div > div:last-child input{
+    background-color: white;
+    color: #98d28f;
+    font-weight: bold;
+    border: #98d28f 2px solid;
+    border-radius: 50px
+}
+#form_login > div > div > div:last-child > div > div:last-child img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
